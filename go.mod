@@ -1,4 +1,4 @@
-module go-gin-template
+module github.com/BxfferOverflow/go-gin-template
 
 go 1.20
 

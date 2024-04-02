@@ -1,8 +1,8 @@
 package routes
 
 import (
+	"github.com/BxfferOverflow/go-gin-template/controller"
 	"github.com/gin-gonic/gin"
-	"go-gin-template/controller"
 )
 
 func AddSampleRoutes(group *gin.RouterGroup) {

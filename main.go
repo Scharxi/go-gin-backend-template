@@ -2,11 +2,11 @@ package main
 
 import (
 	"database/sql"
+	"github.com/BxfferOverflow/go-gin-template/routes"
+	"github.com/BxfferOverflow/go-gin-template/util"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
-	"go-gin-template/routes"
-	"go-gin-template/util"
 	"log"
 )
 
