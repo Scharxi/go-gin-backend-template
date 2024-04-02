@@ -2,8 +2,8 @@ package httputil
 
 import (
 	"context"
-	"github.com/BxfferOverflow/go-gin-template/httperror"
-	"github.com/BxfferOverflow/go-gin-template/status"
+	"github.com/BxfferOverflow/gogintemplate/httperror"
+	"github.com/BxfferOverflow/gogintemplate/status"
 	"github.com/gin-gonic/gin"
 	"log"
 	"strconv"

@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/BxfferOverflow/go-gin-template/handler"
+	"github.com/BxfferOverflow/gogintemplate/handler"
 	"github.com/gin-gonic/gin"
 )
 

@@ -2,12 +2,13 @@ package main
 
 import (
 	"database/sql"
-	"github.com/BxfferOverflow/go-gin-template/routes"
-	"github.com/BxfferOverflow/go-gin-template/util"
+	"github.com/BxfferOverflow/gogintemplate/routes"
+	"github.com/BxfferOverflow/gogintemplate/util"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
 	"log"
+	"os"
 )
 
 func main() {
@@ -26,7 +27,7 @@ func initApp() {
 		log.Fatalln(err.Error())
 		return
 	}
-	conn, err := sql.Open("postgres", "postgresql://postgres:lms@localhost:5432/postgres?sslmode=disable")
+	conn, err := sql.Open("postgres", os.Getenv("DB_URL"))
 
 	if err != nil {
 		log.Fatal("cannot connect to db:", err)

@@ -2,7 +2,7 @@ package util
 
 import (
 	"database/sql"
-	db "github.com/BxfferOverflow/go-gin-template/db/sqlc"
+	db "github.com/BxfferOverflow/gogintemplate/db/sqlc"
 )
 
 var Db db.Store

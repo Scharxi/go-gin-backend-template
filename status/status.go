@@ -1,7 +1,7 @@
 package status
 
 import (
-	"github.com/BxfferOverflow/go-gin-template/httperror"
+	"github.com/BxfferOverflow/gogintemplate/httperror"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
